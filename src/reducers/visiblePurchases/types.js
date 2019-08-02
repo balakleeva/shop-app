@@ -1,0 +1,7 @@
+export const CHANGE_VISIBILITY_FILTER = 'CHANGE_VISIBILITY_FILTER';
+
+export const filterList = {
+    SHOW_ALL: 'SHOW_ALL',
+    SHOW_ACTIVE: 'SHOW_ACTIVE',
+    SHOW_BOUGHT: 'SHOW_BOUGHT'
+};

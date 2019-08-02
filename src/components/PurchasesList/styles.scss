@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    padding: 10px;
+    background-color: #f7f7f9;
+    border-radius: 10px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .purchases-container {
+      width: 50%;
+    }
+
+    .input-area {
+      width: 50%;
+
+      .button-group {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+      }
+    }
+  }
+}

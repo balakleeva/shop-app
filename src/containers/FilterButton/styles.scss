@@ -1,0 +1,13 @@
+.filter-button {
+  outline: none;
+  border: 1px solid #5cb85c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #5cb85c;
+  background-color: transparent;
+
+  &.selected, &:hover {
+    background-color: #5cb85c;
+    color: white;
+  }
+}
